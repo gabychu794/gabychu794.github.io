@@ -1,0 +1,153 @@
+@media only screen and (min-width : 600px) {
+    body{
+        width: 1200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        border: 10px solid black; 
+                padding: 20px; 
+    }
+    .img-cv {
+        width: 400px;
+        border-radius: 999px ;
+    }
+    .contenedor-gral{
+       display: flex;
+       flex-direction:row;
+       padding: 20px;
+       font-size: 20px;
+    }
+    .titulo-nombre{
+        background-color: aqua;
+        text-align: center;
+        font-size: 75px;
+    }
+    .columna1{
+        background-color: aqua;
+        padding: 20px;
+        font-size: 20px;
+        height: 1400px;
+    }
+    .contenedor-1{
+        padding: 20px;
+       
+    }
+    .contenedor-lista{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .descripcion{
+        font-size: 35px;
+    }
+    .casa-logo{
+        width:50px;
+        margin-right: 8px;
+    
+    }
+    .cel{
+        width: 30px;
+        height: 30px;
+        padding-top: 17px;
+        margin-right: 12px;
+       
+    }
+    .mail{
+        width: 30px;
+        height: 30px;
+        padding-top: 17px;
+      margin-right: 10px;
+      
+    }
+    .box{
+        display: flex;
+        flex-direction: row ;
+    
+    }
+    .mundo{
+        width: 30px;
+        height: 30px;
+        padding-top: 17px;
+        margin-right: 8px; 
+      
+    }
+    h3{
+        margin: 20px 0px 20px 0px;
+    }
+    h2{
+        margin: 20px 0px 20px 0px;
+        background-color: aqua;
+    }
+    }
+
+    @media only screen and (max-width : 600px) {
+        .img-cv {
+            width: 300px;
+            border-radius: 999px ;
+        }
+    
+        .titulo-nombre{
+            background-color: aqua;
+            text-align: center;
+            font-size: 50px;
+        }
+        .columna1{
+            background-color: aqua;
+            padding: 20px;
+            font-size: 20px;
+            height: 800px;
+        }
+        .contenedor-1{
+            padding: 20px;
+           
+        }
+        .contenedor-lista{
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .descripcion{
+            font-size: 18px;
+        }
+        .casa-logo{
+            width:50px;
+            margin-right: 8px;
+        
+        }
+        .cel{
+            width: 30px;
+            height: 30px;
+            padding-top: 17px;
+            margin-right: 12px;
+           
+        }
+        .mail{
+            width: 30px;
+            height: 30px;
+            padding-top: 17px;
+          margin-right: 10px;
+          
+        }
+        .box{
+            display: flex;
+            flex-direction: row ;
+        
+        }
+        .mundo{
+            width: 30px;
+            height: 30px;
+            padding-top: 17px;
+            margin-right: 8px; 
+          
+        }
+        h3{
+            margin: 20px 0px 20px 0px;
+        }
+        h2{
+            margin: 20px 0px 20px 0px;
+            background-color: aqua;
+        }
+        }
+    
+    
