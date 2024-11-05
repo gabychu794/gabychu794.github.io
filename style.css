@@ -18,10 +18,13 @@
        padding: 20px;
        font-size: 20px;
     }
-    .titulo-nombre{
+    .titulo-nombre-pc{
         background-color: aqua;
         text-align: center;
         font-size: 75px;
+    }
+    .titulo-nombre-cel{
+        visibility: hidden;
     }
     .columna1{
         background-color: aqua;
@@ -63,6 +66,7 @@
     .box{
         display: flex;
         flex-direction: row ;
+        margin: 20px;
     
     }
     .mundo{
@@ -75,23 +79,40 @@
     h3{
         margin: 20px 0px 20px 0px;
     }
+    .Exp-lab-celu{
+        position: absolute;
+        visibility: hidden;
+    }
+    .Exp-Lab-pc{
+        background-color: aqua;
+        font-size: 30px;
+    }
     h2{
-        margin: 20px 0px 20px 0px;
         background-color: aqua;
     }
-    }
+}
+
+
 
     @media only screen and (max-width : 600px) {
         .img-cv {
-            width: 300px;
+            width: 350px;
             border-radius: 999px ;
+            margin: 35px;
         }
     
-        .titulo-nombre{
+        .titulo-nombre-pc{
+            visibility: hidden;
+            position: absolute;
             background-color: aqua;
             text-align: center;
             font-size: 50px;
         }
+        .titulo-nombre-cel{
+        background-color: aqua;
+        text-align: center;
+        font-size: 60px;
+    }
         .columna1{
             background-color: aqua;
             padding: 20px;
@@ -108,11 +129,11 @@
             
         }
         .descripcion{
-            font-size: 18px;
+            font-size: 20px;
         }
         .casa-logo{
             width:50px;
-            margin-right: 8px;
+            margin-right: 6px;
         
         }
         .cel{
@@ -126,12 +147,14 @@
             width: 30px;
             height: 30px;
             padding-top: 17px;
-          margin-right: 10px;
+            margin-right: 10px;
           
         }
         .box{
             display: flex;
             flex-direction: row ;
+            margin-left: 20px;
+            font-size: 20px;
         
         }
         .mundo{
@@ -143,11 +166,35 @@
         }
         h3{
             margin: 20px 0px 20px 0px;
+            font-size: 30px;
+          
+        }
+        
+        .Exp-Lab-pc{
+            position: absolute;
+            visibility: hidden;
+        }
+        .Exp-lab-celu{
+            background-color: aqua;
+            margin: 20px 0px 20px 0px;
+            font-size: 25px;
         }
         h2{
-            margin: 20px 0px 20px 0px;
             background-color: aqua;
         }
+        ul{
+            font-size: 20px;
         }
-    
-    
+        h4{
+            font-size: 25px;
+        }
+        p {
+           font-size: 20px; 
+        }
+        h5{
+            font-size:20px ;
+        }
+        
+        
+
+    }
